@@ -1,0 +1,18 @@
+// NAVBAR
+
+.navbar-container {
+  background-color: transparent;
+  //   background-color: #2d2d2a;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  color: #dad6d6;
+  .navbar-links {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+  }
+}
