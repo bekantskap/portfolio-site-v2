@@ -4,7 +4,9 @@ import Navbar from '../Components/Navbar';
 export default function Home() {
   return (
     <Fragment>
-      <Navbar />
+      <div className="test">
+        <Navbar />
+      </div>
     </Fragment>
   );
 }
