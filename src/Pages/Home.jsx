@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react';
+import Footer from '../Components/Footer';
 import Hero from '../Components/Hero';
 import Info from '../Components/Info';
 import Navbar from '../Components/Navbar';
+import Projects from '../Components/Projects';
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Info />
+        <Projects />
+        <Footer />
       </div>
     </Fragment>
   );
