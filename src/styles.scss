@@ -258,13 +258,50 @@ $font-color: #dad6d6;
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
-      .projects-box {
+      .projects-card {
+        width: 300px;
+        height: 400px;
+        background: #000;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
         display: flex;
-        flex-basis: 20%;
-        background-color: #ffba49;
-        width: 200px;
-        height: 200px;
-        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        backface-visibility: hidden;
+
+        .projects-card__text {
+          p {
+          }
+        }
+      }
+      .projects-card:hover {
+        transform: scale(0.9);
+      }
+      .projects-card:hover .projects-card__text p {
+        margin-bottom: 0px;
+        opacity: 1;
+        color: #dad6d6;
+      }
+      .projects-card:hover:after {
+        height: 280px;
+      }
+      .projects-card:after {
+        width: 100%;
+        content: '';
+        left: 0px;
+        bottom: 0px;
+        height: 150px;
+        position: absolute;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 1)
+        );
+        z-index: 22;
+        transition: all 0.25s ease;
       }
     }
   }

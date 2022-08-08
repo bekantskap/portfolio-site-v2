@@ -14,14 +14,17 @@ export default function Projects() {
           </p>
         </section>
         <section className="projects-sites">
-          <div className="projects-box"></div>
-          <div className="projects-box"></div>
-          <div className="projects-box"></div>
-          <div className="projects-box"></div>
-          <div className="projects-box"></div>
-          <div className="projects-box"></div>
-          <div className="projects-box"></div>
-          <div className="projects-box"></div>
+          <div className="projects-card">
+            <div className="projects-card__text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                veritatis suscipit, sapiente odit officia autem perferendis
+                mollitia, praesentium deleniti officiis ipsam. Rem laborum eos
+                modi id asperiores quidem magni explicabo!
+                <button>Läs mer</button>
+              </p>
+            </div>
+          </div>
         </section>
       </div>
     </main>
