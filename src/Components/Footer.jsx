@@ -9,20 +9,20 @@ export default function Footer() {
       <section className="footer-contact">
         <div>
           <div className="footer-box">
-            <i class="fa-solid fa-at"></i>
+            <i className="fa-solid fa-at"></i>
 
             <p onClick={() => (window.location = 'mailto:yourmail@gmail.com')}>
               alstenberg@live
             </p>
           </div>
           <div className="footer-box">
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
             <p className="footer-phone">0735807870</p>
           </div>
         </div>
         <div>
           <div className="footer-box">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
             <a
               className="footer-github"
               href="https://www.github.com/bekantskap"
@@ -33,7 +33,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="footer-box">
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
             <a
               className="footer-linkedin"
               href="https://www.linkedin.com/in/alexander-stenberg-5507b01ba"

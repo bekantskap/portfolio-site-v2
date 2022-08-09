@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectCards from './ProjectCards';
 
 export default function Projects() {
   return (
@@ -14,17 +15,36 @@ export default function Projects() {
           </p>
         </section>
         <section className="projects-sites">
-          <div className="projects-card">
-            <div className="projects-card__text">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                veritatis suscipit, sapiente odit officia autem perferendis
-                mollitia, praesentium deleniti officiis ipsam. Rem laborum eos
-                modi id asperiores quidem magni explicabo!
-                <button>Läs mer</button>
-              </p>
-            </div>
-          </div>
+          <ProjectCards
+            title={'Ehab Elteknik'}
+            link={'https://github.com/bekantskap/ehab-elteknik'}
+            desc={
+              'Sida som ska levereras till ett elföretag i Borås. Allt är designat och utvecklat av mig. Pågående arbete.'
+            }
+          />
+          <ProjectCards
+            title={'Where its at'}
+            link={'https://github.com/bekantskap/where-its-at'}
+            desc={
+              'Skolprojekt där vi utvecklade en mobilapp för konsertbokningar.'
+            }
+          />
+          <ProjectCards
+            title={'Movie DB'}
+            link={'https://github.com/bekantskap/Movie-DB-Redux-Project'}
+            desc={
+              'Skolprojekt med fokus på logik och inget fokus på design. Filmdatabas utvecklad med React Redux.'
+            }
+          />
+          <ProjectCards
+            title={'Nvidia Clone'}
+            link={'https://github.com/bekantskap/nvidia'}
+            desc={'Light-Klon av nvidias hemsida med fokus på CSS.'}
+          />
+          <ProjectCards />
+          <ProjectCards />
+          <ProjectCards />
+          <ProjectCards />
         </section>
       </div>
     </main>
