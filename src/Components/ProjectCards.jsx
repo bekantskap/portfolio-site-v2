@@ -5,7 +5,10 @@ import Image from '../img/projects.jpg';
 export default function ProjectCards(props) {
   return (
     <div className="projects-card__wrapper">
-      <div className="projects-card">
+      <div
+        onClick={() => window.open(props.link, '_blank')}
+        className="projects-card"
+      >
         <img className="projects-card__img" alt="project website" src={Image} />
         <div className="projects-card__text">
           <h3>{props.title}</h3>

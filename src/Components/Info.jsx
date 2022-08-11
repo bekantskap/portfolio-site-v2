@@ -6,6 +6,9 @@ export default function Info() {
     <main className="info-container">
       <section className="info-content">
         <img className="info-box__image" src={Image} alt="portrait" />
+      </section>
+      <div className="info-line"></div>
+      <section className="info-content__right">
         <div className="info-box">
           <div className="info-box__content">
             <div>
@@ -37,6 +40,15 @@ export default function Info() {
               <i class="fa-brands fa-react"></i>
             </div>
           </div>
+        </div>
+        <div className="info-box__bio">
+          <h3>BIO</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium modi repellat provident labore? Quidem, fugiat. Mollitia
+            dolore maiores beatae sapiente optio totam reiciendis excepturi
+            perspiciatis at aspernatur est, unde amet?
+          </p>
         </div>
       </section>
     </main>

@@ -9,9 +9,7 @@ export default function Projects() {
           <h1>PORTFOLIO</h1>
           <h3>MIN KOLLEKTION</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
-            ut, quia expedita soluta modi at alias dolorum nulla omnis officia
-            quis ipsum eos, cumque placeat minus, accusamus quo fugiat! Fugiat.
+            Nedan finnes ett axplock av olika projekt som jag har arbetat på.
           </p>
         </section>
         <section className="projects-sites">
@@ -26,20 +24,22 @@ export default function Projects() {
             title={'Where its at'}
             link={'https://github.com/bekantskap/where-its-at'}
             desc={
-              'Skolprojekt där vi utvecklade en mobilapp för konsertbokningar.'
+              'Skolprojekt där vi utvecklade en app för konsertbokningar till mobiler. Fokus på context och states. '
             }
           />
           <ProjectCards
             title={'Movie DB'}
             link={'https://github.com/bekantskap/Movie-DB-Redux-Project'}
             desc={
-              'Skolprojekt med fokus på logik och inget fokus på design. Filmdatabas utvecklad med React Redux.'
+              'Skolprojekt med fokus på logik och inget fokus på design. Filmdatabas där man kan recensera, utvecklad med React Redux.'
             }
           />
           <ProjectCards
             title={'Nvidia Clone'}
             link={'https://github.com/bekantskap/nvidia'}
-            desc={'Light-Klon av nvidias hemsida med fokus på CSS.'}
+            desc={
+              'Light-Klon av nvidias hemsida med fokus på CSS. Inte respsonsivt utvecklad i dagsläget men kommer bli.'
+            }
           />
           <ProjectCards />
           <ProjectCards />
