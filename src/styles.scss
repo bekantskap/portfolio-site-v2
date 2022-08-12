@@ -223,6 +223,9 @@ $font-color: #dad6d6;
     .info-box__image {
       width: 30em;
       height: 30em;
+      // position: relative;
+      // left: -50em;
+      // transition: left 0.3s;
     }
     .round {
       border-radius: 50%;
@@ -237,13 +240,15 @@ $font-color: #dad6d6;
 
 .info-box {
   background-color: $accent-color;
-  width: 23em;
+  width: 20em;
   height: 23em;
   margin: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   .info-box__content {
     width: 50%;
     height: 85%;
@@ -252,7 +257,7 @@ $font-color: #dad6d6;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
       rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     h3 {
-      font-size: 1.3em;
+      // font-size: 1.3em;
       text-decoration: underline;
     }
     i {
@@ -269,9 +274,11 @@ $font-color: #dad6d6;
   background-color: #dad6d6;
 }
 .info-box__bio {
-  width: 23em;
+  width: 20em;
   height: 23em;
   background-color: #ffba49;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 // PROJECTS
@@ -438,8 +445,7 @@ $font-color: #dad6d6;
     margin-right: 5px;
     font-size: 1.3em;
   }
-  .footer-text {
-  }
+
   .footer-contact {
     width: 80%;
     display: flex;
@@ -450,4 +456,25 @@ $font-color: #dad6d6;
     display: flex;
     align-items: center;
   }
+}
+
+// ANIMATIONS
+
+.hide-slide {
+  position: relative;
+  left: 0em;
+  transition: left 1s;
+}
+.hide-right {
+  position: relative;
+  right: 0em;
+  transition: right 1s;
+}
+
+.slide-in__left {
+  left: -50em;
+}
+
+.slide-in__right {
+  right: -50em;
 }
