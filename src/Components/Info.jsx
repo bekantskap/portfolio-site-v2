@@ -22,6 +22,7 @@ export default function Info() {
 
   return (
     <main className="info-container">
+      <p>HEJ</p>
       <section className="info-content">
         <img
           className={`info-box__image ${
@@ -37,14 +38,16 @@ export default function Info() {
           slideIn ? 'hide-right' : 'slide-in__right'
         } `}
       >
-        <div className="info-box__bio">
-          <h3>BIO</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium modi repellat provident labore? Quidem, fugiat. Mollitia
-            dolore maiores beatae sapiente optio totam reiciendis excepturi
-            perspiciatis at aspernatur est, unde amet?
-          </p>
+        <div className="info-box">
+          <div className="info-box__bio">
+            <h3>BIO</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium modi repellat provident labore? Quidem, fugiat.
+              Mollitia dolore maiores beatae sapiente optio totam reiciendis
+              excepturi perspiciatis at aspernatur est, unde amet?
+            </p>
+          </div>
         </div>
         <div className="info-box">
           <div className="info-box__content">

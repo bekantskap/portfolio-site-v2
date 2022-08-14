@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 
@@ -27,6 +27,10 @@ export default function Navbar() {
     changeNavbarBackground();
     window.addEventListener('scroll', changeNavbarBackground);
   });
+
+  const ref = useRef(null);
+
+  const handleClick = () => {};
 
   return (
     <nav
