@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Footer() {
-  const mailLink = 'mailto:yourmail@gmail.com';
+export default function Footer(props) {
   return (
-    <footer className="footer-container">
+    <footer ref={props.reference} className="footer-container">
       <h2 className="footer-text">KONTAKTA MIG</h2>
       <section className="footer-contact">
         <div>

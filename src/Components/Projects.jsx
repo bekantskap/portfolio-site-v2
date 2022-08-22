@@ -8,9 +8,6 @@ export default function Projects() {
         <section className="projects-text">
           <h1>PORTFOLIO</h1>
           <h3>MIN KOLLEKTION</h3>
-          <p>
-            Nedan finnes ett axplock av olika projekt som jag har arbetat på.
-          </p>
         </section>
         <section className="projects-sites">
           <ProjectCards
@@ -41,10 +38,34 @@ export default function Projects() {
               'Light-Klon av nvidias hemsida med fokus på CSS. Inte respsonsivt utvecklad i dagsläget men kommer bli.'
             }
           />
-          <ProjectCards />
-          <ProjectCards />
-          <ProjectCards />
-          <ProjectCards />
+          <ProjectCards
+            title={'Scrum Tutorial'}
+            link={'https://github.com/bekantskap/Scrum-tutorial-project'}
+            desc={
+              'Skolprojekt med fokus på att förklara scrum för ett mindre företag genom att designa en hemsida.'
+            }
+          />
+          <ProjectCards
+            title={'Portfolio'}
+            link={'https://github.com/bekantskap/portfolio-site-v2'}
+            desc={
+              'Repository för den här portfolion som är designad av mig. Utvecklad med react och sass'
+            }
+          />
+          <ProjectCards
+            title={'The Hangman'}
+            link={'https://github.com/bekantskap/Hangman.git'}
+            desc={
+              'Skolprojekt gjort tidigt i min skolgång innan intro till react. Här låg fokus på vanilla JS.'
+            }
+          />
+          <ProjectCards
+            title={'Solaris'}
+            link={'https://github.com/bekantskap/Solaris'}
+            desc={
+              'Skolprojekt gjort tidigt i min skolgång innan intro till react. Fokus på API och vanilla JS '
+            }
+          />
         </section>
       </div>
     </main>
